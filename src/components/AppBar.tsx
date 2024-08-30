@@ -6,7 +6,6 @@ export const AppBar: FC = (props) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menu = [
-    { name: "Home", link: "#home" },
     { name: "Features", link: "#features" },
     { name: "Tools", link: "#tools" },
     { name: "Price", link: "#price" },

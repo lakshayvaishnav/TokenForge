@@ -34,17 +34,15 @@ const Home: NextPage = (props) => {
           content="Build and create solana token"
         />
       </Head>
-
       <HomeView setOpenCreateModal={setOpenCreateModal} />
-
-      {/* <ToolView
+      <ToolView
+        // @ts-ignore
         setOpenAirdrop={setOpenAirdrop}
         setOpenContact={setOpenContact}
         setOpenCreateModal={setOpenCreateModal}
         setOpenSendTransaction={setOpenSendTransaction}
         setOpenTokenMetaData={setOpenTokenMetaData}
       />
-
       <FeatureView
         setOpenAirdrop={setOpenAirdrop}
         setOpenContact={setOpenContact}
@@ -52,8 +50,7 @@ const Home: NextPage = (props) => {
         setOpenSendTransaction={setOpenSendTransaction}
         setOpenTokenMetaData={setOpenTokenMetaData}
       />
-
-      <OfferView />
+      {/* <OfferView />
 
       <FaqView />
 
